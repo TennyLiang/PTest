@@ -1,0 +1,171 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en-us" data-reactid=".28040zbc5xc" data-react-checksum="1307155488">
+<head data-reactid=".28040zbc5xc.0"><title data-react-helmet="true" data-reactid=".28040zbc5xc.0.1:$PTest | Login">
+    PTest | Login</title>
+    <meta data-react-helmet="true" name="description" content="PTest System"
+          data-reactid=".28040zbc5xc.0.2:$0"/>
+    <meta data-react-helmet="true" charset="utf-8" data-reactid=".28040zbc5xc.0.2:$1"/>
+    <meta data-react-helmet="true" property="og:site_name" content="PTest" data-reactid=".28040zbc5xc.0.2:$2"/>
+    <meta data-react-helmet="true" property="og:image" content="{% static 'images/claim.png' %}"
+          data-reactid=".28040zbc5xc.0.2:$3"/>
+    <meta data-react-helmet="true" property="og:image:width" content="341" data-reactid=".28040zbc5xc.0.2:$4"/>
+    <meta data-react-helmet="true" property="og:image:height" content="389" data-reactid=".28040zbc5xc.0.2:$5"/>
+    <meta data-react-helmet="true" property="og:locale" content="en_US" data-reactid=".28040zbc5xc.0.2:$6"/>
+    <meta data-react-helmet="true" property="og:title" content="PTest" data-reactid=".28040zbc5xc.0.2:$7"/>
+    <meta data-react-helmet="true" property="og:description" content="PTest System"
+          data-reactid=".28040zbc5xc.0.2:$8"/>
+    <meta data-react-helmet="true" property="og:card" content="PTest System" data-reactid=".28040zbc5xc.0.2:$9"/>
+    <link rel="shortcut icon" href="/favicon.ico" data-reactid=".28040zbc5xc.0.7"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" data-reactid=".28040zbc5xc.0.8"/>
+    <style type="text/css">
+        .tk-proxima-nova {
+            font-family: "proxima-nova", sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/custom1.css' %}" media="all">
+    <link href="{% static 'bootstrap/css/custom.css' %}" media="screen, projection" rel="stylesheet" type="text/css"
+          charset="UTF-8"
+          data-reactid=".28040zbc5xc.0.9:$0"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/demo.css' %}">
+</head>
+<body data-reactid=".28040zbc5xc.1">
+<div id="content" data-reactid=".28040zbc5xc.1.0">
+    <div class="root" data-reactid=".oaeoixxb7k" data-react-checksum="-1269895600">
+        <noscript data-reactid=".oaeoixxb7k.0"></noscript>
+        <noscript data-reactid=".oaeoixxb7k.1"></noscript>
+        <div class="marketing" data-reactid=".oaeoixxb7k.2">
+            <nav class="navbar navbar-default navbar-fixed-top" data-reactid=".oaeoixxb7k.2.0">
+                <div class="container" data-reactid=".oaeoixxb7k.2.0.0">
+                    <noscript data-reactid=".oaeoixxb7k.2.0.0.0"></noscript>
+                    <div class="navbar-header" data-reactid=".oaeoixxb7k.2.0.0.1">
+                        <a class="nav-logo navbar-brand" href="/index" data-reactid=".oaeoixxb7k.2.0.0.1.0"><img
+                                src="/static/images/ct-logo.jpg" data-reactid=".oaeoixxb7k.2.0.0.1.0.0"/></a>
+                        <button type="button" class="navbar-toggle" data-reactid=".oaeoixxb7k.2.0.0.1.1"><span
+                                class="sr-only" data-reactid=".oaeoixxb7k.2.0.0.1.1.0">Toggle navigation</span><span
+                                class="icon-bar" data-reactid=".oaeoixxb7k.2.0.0.1.1.1"></span><span class="icon-bar"
+                                                                                                     data-reactid=".oaeoixxb7k.2.0.0.1.1.2"></span><span
+                                class="icon-bar" data-reactid=".oaeoixxb7k.2.0.0.1.1.3"></span></button>
+                    </div>
+                    <div class="navbar-collapse collapse" data-reactid=".oaeoixxb7k.2.0.0.2">
+                        <ul class="nav navbar-nav navbar-left" data-reactid=".oaeoixxb7k.2.0.0.2.0">
+                            <li class="" data-reactid=".2b7zjb3e874.2.0.0.2.0.$0/=10" role="presentation">
+                                <a data-reactid=".2b7zjb3e874.2.0.0.2.0.$0/=10.0" href="/index/">PTest考评系统</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right" data-reactid=".oaeoixxb7k.2.0.0.2.1">
+                            <li role="presentation" class="active" data-reactid=".oaeoixxb7k.2.0.0.2.1.$login/=1$login">
+                                <a href="/index" data-reactid=".oaeoixxb7k.2.0.0.2.1.$login/=1$login.0">Login</a>
+                            </li>
+                            <li style="text-align:center;" href="/signup/"
+                                data-reactid=".oaeoixxb7k.2.0.0.2.1.$signup/=1$signup">
+                                <button class="btn btn-cta navbar-btn"
+                                        data-reactid=".oaeoixxb7k.2.0.0.2.1.$signup/=1$signup.0">Sign Up
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div data-reactid=".oaeoixxb7k.2.1">
+                <div class="auth" data-reactid=".oaeoixxb7k.2.1.0">
+                    <div class="login" data-reactid=".oaeoixxb7k.2.1.0.0">
+                        <div class="highlight-header-secondary" data-reactid=".oaeoixxb7k.2.1.0.0.1">
+                            <h1 data-reactid=".oaeoixxb7k.2.1.0.0.1.0">
+                                <span class="glyphicon glyphicon-time" data-reactid=".oaeoixxb7k.2.1.0.0.1.0.0"> </span>
+                                <span data-reactid=".oaeoixxb7k.2.1.0.0.1.0.1">  </span>
+                                <span data-reactid=".oaeoixxb7k.2.1.0.0.1.0.2">考试未开始,请耐心等待</span>
+                            </h1>
+                        </div>
+                        <div class="container" data-reactid=".oaeoixxb7k.2.1.0.0.2">
+                            <div class="countdown countdown-container container">
+                                <div class="clock row">
+                                    <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3" style="top: 110px;">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-days" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-days type-time">DAYS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3" style="top: 110px;">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-hours" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-hours type-time">HOURS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3" style="top: 110px;">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-minutes type-time">MINUTES</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3" style="top: 110px;">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-seconds type-time">SECONDS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                                </div><!-- /.clock -->
+                            </div><!-- /.countdown-wrapper -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <footer data-reactid=".oaeoixxb7k.2.2">
+                <div class="container" data-reactid=".oaeoixxb7k.2.2.0">
+                    <div class="row" data-reactid=".oaeoixxb7k.2.2.0.1">
+                        <div class="col-md-6" data-reactid=".oaeoixxb7k.2.2.0.1.0">© 2016 BlueSeraph</div>
+                        <div class="col-md-6 social-media" data-reactid=".oaeoixxb7k.2.2.0.1.1">
+                            中国电信广东省网络操作维护中心交换网络室
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="{% static 'bootstrap/js/jquery-1.11.0.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bootstrap/js/kinetic.js' %}"></script>
+<script type="text/javascript" src="{% static 'bootstrap/js/jquery.final-countdown.js' %}"></script>
+<script type="text/javascript">
+    $('document').ready(function() {
+        'use strict';
+
+    	$('.countdown').final_countdown({
+            'start': 1388460310,
+            'end': 1388461310,
+            'now': 1388460310
+            }, function() {
+
+        });
+    });
+</script>
+</body>
+</html>
